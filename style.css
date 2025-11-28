@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+   background-color: #F4F0EA;
+}
+
+.hero {
+    background-color: #004D40;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 1.8em; 
+    margin-bottom: 10px;
+}
+
+.btn-principal {
+    display: inline-block;
+    background-color: #1E8449;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: #145b36;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+#impactos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#impactos h2 {
+    color: #004D40;
+    font-size: 2em;
+
+}
+
+.missao {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.resultados li {
+    color: white;
+    background-color: #004D40;
+    border: 1px solid #1E8449;
+    margin: 15px auto;
+    padding: 20px;
+    display: inline-block;
+    width: 40%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;    
+}
+
+#projetos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#projetos h2 {
+    color: #004D40;
+    font-size: 2em;
+}
+
+.projeto1 {
+    color: white;
+    background-color: #004D40;
+    border: 1px solid #1E8449;
+    margin: 15px;
+    padding: 20px;
+    display: inline-block;
+    width: 40%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.projeto1 h3 {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+#contato {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#contato h2 {
+    color: #004D40;
+    font-size: 2em;
+}
+
+#contato h3 {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+input[type="text"] , input[type="email"] , textarea::placeholder {
+    padding: 0.5rem;
+}
+
+input[type="text"] , input[type="email"]  {
+  
+  padding: 0.6rem;
+  border: 2px solid #004D40;
+  outline: none;
+  border-radius: 8px;
+  background-color: transparent;
+  flex: 1 1 48%
+}
+
+textarea {
+    flex: 1 1 100%;
+    min-height: 120px;
+    resize: none;
+    background-color: transparent;
+    border: 2px solid #004D40;
+    border-radius: 8px;
+    outline: none;
+}
+
+form button {
+    flex: 1 1 100%;
+}
+
+
+
+footer {
+    background-color: #004D40;
+    color: white;
+    text-align: center;
+    padding: 70px 15px;
+}
+
+@media (min-width: 768px) {
+
+    .resultados {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .resultados li {
+        width: 30%;
+        margin: 15px 5px;
+    }
+
+    .hero h1 {
+    font-size: 2.5em;
+    }
+
+    .hero {
+    padding: 100px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
